@@ -1,0 +1,125 @@
+body
+{
+    background-image: url(../img/paps.jpg);
+    background-size: cover;
+    background-color: white;
+}
+nav{
+    height: 100px;
+    margin-top: 100px;
+    background-color:black;
+    opacity: 0.9;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: 23px;
+    background-color: transparent;
+}
+
+ul li{
+    float:left;
+    width: 200px;
+    height: 40px;
+    background-color:transparent;
+    opacity: 8;
+    font-size:20px;
+    text-align: center;
+    line-height:40px;
+    margin: 2px;    
+}
+li{
+   float: left;
+    margin-top: 30px;
+    
+}
+ul li a{
+   width: 150px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+  background: green;
+}
+
+ul li ul li{
+    display: none;
+    
+}
+ul li:hover ul li{
+    display: block;
+}
+h2{
+    color:lightblue;
+    text-align: center;
+}
+
+p {
+    color:white;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+@keyframes slider{
+    
+    0% {
+        left: 0;
+    } 
+    
+    20% {
+        left: 0;
+    } 
+    
+    25% {
+        left:100%;
+    }  
+    
+   45% {
+        left: -100%;
+    }   
+    
+    50% {
+        left:-200%;
+    }   
+    
+70% {
+        left:-200%;
+    }   
+    
+    75% {
+        left:-300%;
+    }   
+    
+    95% {
+        left:-400%;
+    }   
+    
+    100% {
+        left:-400%;
+    }   
+    
+    #slider{
+        overflow: hidden;
+    }
+    
+    #slider figure img{
+        width: 20%;
+        float:left;
+    }
+    
+    #slider figure{
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 20s slider infinite;
+        
+    }
+    
+}

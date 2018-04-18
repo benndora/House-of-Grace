@@ -1,0 +1,135 @@
+* 
+{
+	font-size: 11px;
+	font-family: Arial, Verdana, sans-serif;
+	margin: 0px;
+}
+body 
+{
+	font-size: 11px;
+	background-color: #AEAEAE;
+	margin: 0;
+	text-align: center;	
+}
+.ext-webkit .x-btn-text,
+.ext-chrome .x-btn-text
+{
+    padding: 1px 6px;
+}
+.x-panel-body
+{
+	background-color: transparent;
+}
+.webui-not-supported-msg
+{
+    background-color: #F0F0F0;
+    border: 1px solid #8F8F8F;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 8px;
+}
+.webui-not-supported-msg .x-panel-body
+{
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#webui_login_chpass_mainpanel 
+{
+	background: url(/chpass/login_chpass_bg.png) no-repeat center top;
+}
+.webui_login_mainpanel 
+{
+	background: url(/images/login_small.png) no-repeat center top;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 113px 66px 0;
+	text-align: left;
+	vertical-align: middle;
+	display: block;
+}
+.webui_login_mainpanel .login-version
+{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.webui_login_mainpanel .banner-msg-text
+{
+    color: #2F3D5F;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding: 0 0 10px 10px;
+    border-bottom: 1px dotted #AAAAAB;
+}
+.hostname_caption
+{
+    color: #2F3D5F;
+    font-weight: bold;
+    padding: 12px 0 10px 10px;
+    border-top: 1px dotted #AAAAAB;
+}
+.webui_login_mainpanel .webui_login_chpass_banner
+{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding: 0 0 10px 10px;
+}
+.webui_login_mainpanel form 
+{
+	background-color: transparent;
+}
+.webui-login-label
+{
+    color: #17233F;
+    padding-left: 10px;
+}
+.webui_login_mainpanel .x-btn-noicon .x-btn-small .x-btn-text 
+{
+    height: auto;
+}
+.ext-chrome .x-btn-text
+{
+    padding: 1px 6px;
+}
+.webui_login_mainpanel .x-form-field 
+{
+    font: inherit;
+}
+.webui_login_mainpanel .login-error
+{
+    color: red;
+    margin-left: 65px;
+    display: block;
+}
+.login_chpass-error
+{
+    color: red;
+    display: block;
+    padding-left: 10px;
+}
+.webui_login_mainpanel .webui_login_form 
+{
+    margin-bottom: 185px;
+}
+.webui_login_logo_panel 
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(/login/mark-word-icon.png) no-repeat left top;
+}
+.webui-login-html5-qtip
+{
+    background-color: #E7EEF7;
+    border: 1px solid #9F9F9F;
+}
+::-ms-reveal {
+    display: none;
+}
+.login_button .x-btn-mc
+{
+    text-align: right;
+    padding: 0 10px 30px 0;
+}
